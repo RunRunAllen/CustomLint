@@ -1,0 +1,4 @@
+include ':lintjava'
+include ':lintLibrary'
+include ':app'
+rootProject.name = "Resourcedemo"
