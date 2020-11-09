@@ -22,8 +22,7 @@ public class CustomIssueRegistry extends IssueRegistry {
         return Arrays.asList(
                 SampleCodeDetector.ISSUE,
                 TextStringInCodeDetector.ISSUE
-                , ClassIdentifyDetector.ISSUE,
-                OverrideDetector.ISSUE);
+                , ClassIdentifyDetector.ISSUE);
     }
 
     @Override
